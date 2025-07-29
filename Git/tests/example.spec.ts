@@ -25,6 +25,9 @@ function addGeneric<T extends number | bigint>(a: T, b: T): T {
 function addWithDefaults(a: number, b: number = 0, c: number = 0): number {
   return a + b + c;
 }
+function addWithDefaults(a:number,b:number=0):number{
+  return a+b;
+}
 
 // Examples of usage:
 console.log(add(5, 3)); // 8
